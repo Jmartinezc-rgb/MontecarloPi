@@ -14,10 +14,22 @@ limitations under the License.*/
 
 
 package aplicacion;
+/**
+ * Esta clase contiene el método main que imprimirá el resultado más tarde
+ *
+ * @author Javier Martínez
+ * @version final 26/02/2021
+ */
 
 import mates.Matematicas;
 
 public class Principal{
+    /**
+     * Este método main sirve para calcular nuestro resultado
+     *
+     * @param args se establece un parametro para que se guarde el número que quiera el usuario
+     */
+
     public static void main(String[] args){
         long dardosTotales = Long.parseLong(args[0]);
         Matematicas.generarNumeroPi(dardosTotales);

@@ -13,8 +13,20 @@ See the License for the specific language governing permissions and
 limitations under the License.*/
 
 package mates;
+/**
+ * Esta clase contiene el método toString y el método "calcularNumeroPi" y el bucle
+ * for para calcular la aproximación del número
+ *
+ * @author Javier Martínez
+ * @version final 26/02/2021
+ */
 
 public class Matematicas{
+    /**
+     * Este método sirve para calcular nuestro resultado
+     *
+     * @param dardosTotales es el número total de dardos lanzados
+     */
 
     public static void calcularNumeroPi(long dardosTotales){
         double dentro = 0;
