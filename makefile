@@ -1,13 +1,14 @@
 compilar:limpiar
-mkdir bin
-find src -name *.java | xargs javac -cp bin -d bin
+	mkdir bin
+	find src -name *.java | xargs javac -cp bin -d bin
 ejecutar:compilar
-java -cp bin aplicacion.Principal
+	java -cp bin aplicacion.Principal
 limpiar:
-rm -rf bin
+	rm -rf bin
 jar:compilar
-jar cvfm principal.jar manifest.txt -C bin .
-run:jar
-java -jar principal.jar
-javadoc:
-javadoc -d doc src/mates/* src/aplicacion/*
+	jar cvfm Montecarlo.jar Manifest.txt -C bin .
+javadoc:jar
+	rm -rf html
+	mkdir html
+	find . -type f -name "*.java" | xargs javadoc -d html -encoding utf-8 -charset utf-8
+run : javadoc
