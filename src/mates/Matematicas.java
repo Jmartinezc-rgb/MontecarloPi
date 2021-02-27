@@ -28,7 +28,7 @@ public class Matematicas{
      * @param dardosTotales es el número total de dardos lanzados
      */
 
-    public static void calcularNumeroPi(long dardosTotales){
+    public static void calculoNumeroPi(long dardosTotales){
         double dentro = 0;
         double areaCuadrado = 4;
         for (long i = 1; i <= dardosTotales; i++){

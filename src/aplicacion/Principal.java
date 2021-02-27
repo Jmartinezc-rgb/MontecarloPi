@@ -32,7 +32,7 @@ public class Principal{
 
     public static void main(String[] args){
         long dardosTotales = Long.parseLong(args[0]);
-        Matematicas.generarNumeroPi(dardosTotales);
+        Matematicas.calculoNumeroPi(dardosTotales);
     }
 }
 
