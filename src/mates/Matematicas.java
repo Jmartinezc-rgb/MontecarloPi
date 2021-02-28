@@ -1,4 +1,4 @@
-/*Copyright [2021] [Javier Martínez]
+/*Copyright 2021 Javier Martínez
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -14,11 +14,11 @@ limitations under the License.*/
 
 package mates;
 /**
- * Esta clase contiene el método toString y el método "calcularNumeroPi" y el bucle
+ * Esta clase contiene el método "calcularNumeroPi" y el bucle
  * for para calcular la aproximación del número
  *
  * @author Javier Martínez
- * @version final 26/02/2021
+ * @version final 28/02/2021
  */
 
 public class Matematicas{

@@ -1,4 +1,4 @@
-/*Copyright [2021] [Javier Martínez]
+/*Copyright 2021 Javier Martínez
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ package aplicacion;
  * Esta clase contiene el método main que imprimirá el resultado más tarde
  *
  * @author Javier Martínez
- * @version final 26/02/2021
+ * @version final 28/02/2021
  */
 
 import mates.Matematicas;
