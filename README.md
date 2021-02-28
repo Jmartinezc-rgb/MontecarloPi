@@ -27,8 +27,11 @@ Fuente: https://es.wikipedia.org/wiki/M%C3%A9todo_de_Montecarlo
 
 Para que el programa se ejecute necesita seguir las siguientes instrucciones:
 * 1-make jar
-* 2-java -jar Montecarlo.jar numero_que_quiera_introduccir
+* 2-java -jar Montecarlo.jar numero_de_dardos
 
 ### Visualmente ###
 
 ![Alt text](https://upload.wikimedia.org/wikipedia/commons/e/e5/Estimacion_de_Pi_por_Montercarlo.gif)
+
+### Diagrama ###
+![Alt text](file:///C:/Users/javim/Downloads/IMG-9437.jpg)
